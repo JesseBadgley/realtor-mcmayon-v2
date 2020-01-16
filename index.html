@@ -19,17 +19,23 @@
 			href="https://fonts.googleapis.com/css?family=Abril+Fatface|Courgette|Leckerli+One|Merienda+One|Pacifico|Pangolin|Righteous|Roboto|Sriracha&display=swap"
 			rel="stylesheet"
 		/>
+		<link
+			href="https://fonts.googleapis.com/css?family=Nova+Mono|Sriracha&display=swap"
+			rel="stylesheet"
+		/>
+
 		<link rel="stylesheet" type="text/css" href="style.css" />
 
 		<title>Nick McMayon</title>
 	</head>
 	<body>
 		<!-- Navigation -->
-		<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+		<nav class="navbar navbar-expand-md navbar-dark bg-secondary sticky-top">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="#" style="font-family:Sriracha, cursive;"
-					>Nick McMayon</a
-				>
+				<div class="circle">
+					<span class="initials">NM</span>
+				</div>
+				<a class="navbar-brand" href="#">Nick McMayon</a>
 				<button
 					class="navbar-toggler"
 					type="button"
@@ -105,7 +111,7 @@
 				<div class="carousel-item active">
 					<img src="img/dallas-skyline-943080.jpg" />
 					<div class="carousel-caption">
-						<h1 class="display-2">Nicholas McMayon Realtor</h1>
+						<h1 class="display-6">Premier Dallas Realtor</h1>
 						<h3>Buy, Sell & Lease</h3>
 						<button type="button" class="btn btn-outline-light btn-lg">
 							Get Stated
@@ -118,7 +124,7 @@
 				<div class="carousel-item">
 					<img src="img/loft1.jpg" />
 					<div class="carousel-caption">
-						<h1 class="display-2">Nicholas McMayon Realtor</h1>
+						<h1 class="display-6">Premier Dallas Realtor</h1>
 						<h3>Buy, Sell & Lease</h3>
 						<button type="button" class="btn btn-outline-light btn-lg">
 							Get Stated
@@ -129,9 +135,9 @@
 					</div>
 				</div>
 				<div class="carousel-item">
-					<img src="img/modern-building.jpeg" />
+					<img src="img/arts-district.jpg" />
 					<div class="carousel-caption">
-						<h1 class="display-2">Nicholas McMayon Realtor</h1>
+						<h1 class="display-6">Premier Dallas Realtor</h1>
 						<h3>Buy, Sell & Lease</h3>
 						<button type="button" class="btn btn-outline-light btn-lg">
 							Get Stated
@@ -161,11 +167,115 @@
 				<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
 					<a href="#">
 						<button type="button" class="btn btn-outline-secondary btn-lg">
-							See All Testimonials
+							See All `Testimonials
 						</button></a
 					>
 				</div>
 			</div>
+
+			<!-- Email Form -->
+			<h1>Connect</h1>
+			<form id="contact-form" method="post" action="contact.php" role="form">
+				<div class="messages"></div>
+
+				<div class="controls">
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="form_name">Firstname *</label>
+								<input
+									id="form_name"
+									type="text"
+									name="name"
+									class="form-control"
+									placeholder="Please enter your firstname *"
+									required="required"
+									data-error="Firstname is required."
+								/>
+								<div class="help-block with-errors"></div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="form_lastname">Lastname *</label>
+								<input
+									id="form_lastname"
+									type="text"
+									name="surname"
+									class="form-control"
+									placeholder="Please enter your lastname *"
+									required="required"
+									data-error="Lastname is required."
+								/>
+								<div class="help-block with-errors"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="form_email">Email *</label>
+								<input
+									id="form_email"
+									type="email"
+									name="email"
+									class="form-control"
+									placeholder="Please enter your email *"
+									required="required"
+									data-error="Valid email is required."
+								/>
+								<div class="help-block with-errors"></div>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="form_need">Please specify your need *</label>
+								<select
+									id="form_need"
+									name="need"
+									class="form-control"
+									required="required"
+									data-error="I need help with."
+								>
+									<option value=""></option>
+									<option value="Request quotation">Buying</option>
+									<option value="Request order status">Selling</option>
+									<option value="Request copy of an invoice">Leasing</option>
+									<option value="Other">Other</option>
+								</select>
+								<div class="help-block with-errors"></div>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12">
+							<div class="form-group">
+								<label for="form_message">Message *</label>
+								<textarea
+									id="form_message"
+									name="message"
+									class="form-control"
+									placeholder="type here *"
+									rows="4"
+									required="required"
+									data-error="Please, leave us a message."
+								></textarea>
+								<div class="help-block with-errors"></div>
+							</div>
+						</div>
+						<div class="col-md-12">
+							<input
+								type="submit"
+								class="btn btn-success btn-send"
+								value="Send message"
+							/>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-12"></div>
+					</div>
+				</div>
+			</form>
 		</div>
 
 		<!-- Optional JavaScript -->
