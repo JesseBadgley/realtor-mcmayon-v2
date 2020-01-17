@@ -37,6 +37,7 @@ body {
 
 .circle {
 	background-color: #ccc;
+	background-image: url(img/nick.jpg);
 	border-radius: 50%;
 	height: var(--avatar-size);
 	text-align: center;
