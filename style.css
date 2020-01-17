@@ -16,26 +16,33 @@ body {
 	font-size: 1.8rem;
 }
 .navbar-nav li {
-	padding-right: 4px;
+	padding-right: 0.8rem;
 	text-transform: uppercase;
+	font-size: 1rem;
 }
 .nav-link {
 	font-size: 1.1em !important;
 }
 .carousel-inner img {
-	height: 100%;
-	width: 100%;
+	max-height: 30%;
+	max-width: 100%;
 }
 
 .carousel-caption {
 	position: absolute;
 }
-:root {
-	--avatar-size: 3rem;
-	/* change this value anything, e.g., 100px, 10rem, etc. */
+/* :root { */
+/* --avatar-size: 19rem; */
+/* change this value anything, e.g., 100px, 10rem, etc. */
+/* } */
+#nick {
+	border-radius: 50%;
+	max-width: 3rem;
+	height: auto;
+	margin-right: 2%;
 }
 
-.circle {
+/* .circle {
 	background-color: #ccc;
 	background-image: url(img/nick.jpg);
 	border-radius: 50%;
@@ -43,15 +50,15 @@ body {
 	text-align: center;
 	width: var(--avatar-size);
 	margin-right: 12px;
-}
+} */
 
-.initials {
+/* .initials {
 	font-family: 'Nova Mono', monospace;
-	font-size: calc(var(--avatar-size) / 2); /* 50% of parent */
+	font-size: calc(var(--avatar-size) / 2); 
 	line-height: 1;
 	position: relative;
-	top: calc(var(--avatar-size) / 4); /* 25% of parent */
-}
+	top: calc(var(--avatar-size) / 4); 
+} */
 /*---Media Queries --*/
 @media (max-width: 992px) {
 }
