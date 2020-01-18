@@ -122,15 +122,54 @@ section {
 }
 
 .contact-info {
+	display: flex;
+	flex-direction: column;
+	align-items: right;
+	justify-content: center;
+	padding: 3%;
+	font-size: 0.5em;
 	height: 50vh;
 	width: 50vw;
 	border: 1px solid red;
 }
+
+.phone-container {
+	height: 30%;
+	width: auto;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+.phone {
+	font-size: 3em;
+	padding-left: 0.6em;
+	color: rgb(0, 30, 255);
+}
+
+.email-container {
+	height: 30%;
+	width: auto;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+}
+
+.email {
+	font-size: 3em;
+	padding-left: 0.6em;
+	color: rgb(0, 30, 255);
+}
+i {
+	color: #343a40;
+}
+
 .email-form {
 	height: 50vh;
 	width: 50vw;
 	border: 1px solid rgb(38, 0, 255);
 }
+
 /* .circle {
 	background-color: #ccc;
 	background-image: url(img/nick.jpg);
