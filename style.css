@@ -63,7 +63,6 @@ body {
 /* change this value anything, e.g., 100px, 10rem, etc. */
 /* } */
 #nick {
-	border-radius: 50%;
 	max-width: 3rem;
 	height: auto;
 	margin-right: 2%;
@@ -121,6 +120,19 @@ section {
 	flex-direction: row;
 }
 
+.pic-container img {
+	width: 100%;
+	max-width: 500px;
+	height: auto;
+	border-radius: 50%;
+	margin: 5%;
+}
+
+.phone-container {
+	width: 30vw;
+	height: auto;
+}
+
 .contact-info {
 	display: flex;
 	flex-direction: column;
@@ -130,7 +142,7 @@ section {
 	font-size: 0.5em;
 	height: 50vh;
 	width: 50vw;
-	border: 1px solid red;
+	/* border: 1px solid red; */
 }
 
 .phone-container {
@@ -142,7 +154,7 @@ section {
 }
 
 .phone {
-	font-size: 3em;
+	font-size: 2.6em;
 	padding-left: 0.6em;
 	color: rgb(0, 30, 255);
 }
@@ -156,7 +168,7 @@ section {
 }
 
 .email {
-	font-size: 3em;
+	font-size: 2.4em;
 	padding-left: 0.6em;
 	color: rgb(0, 30, 255);
 }
@@ -167,7 +179,7 @@ i {
 .email-form {
 	height: 50vh;
 	width: 50vw;
-	border: 1px solid rgb(38, 0, 255);
+	/* border: 1px solid rgb(38, 0, 255); */
 }
 
 /* .circle {
