@@ -126,8 +126,12 @@ section div {
 	flex-direction: row;
 	/* height: 70%;
 	width: 100%; */
-	border: green solid 1px;
+	/* border: green solid 1px; */
 	/* align-items: flex-start; */
+}
+
+section h1 {
+	margin-bottom: 9%;
 }
 
 section > * {
@@ -148,12 +152,13 @@ section > * {
 	height: auto;
 	border-radius: 5%;
 	margin-left: 2%;
+	margin-bottom: 2%;
 }
 
 .contact-info {
 	height: 100%;
 	width: 30%;
-	border: rgb(255, 0, 234) solid 1px;
+	/* border: rgb(255, 0, 234) solid 1px; */
 	padding: 5%;
 }
 
