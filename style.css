@@ -267,7 +267,17 @@ footer i {
 	position: relative;
 	top: calc(var(--avatar-size) / 4); 
 } */
+
+/* About page */
+
+about-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
 /*---Media Queries --*/
+
 @media (max-width: 992px) {
 }
 @media (max-width: 768px) {
