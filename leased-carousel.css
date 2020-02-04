@@ -38,8 +38,21 @@ leased-page-container {
 	width: 100%;
 	background-color: #464646;
 	text-align: center;
-	margin-top: 3%;
+	margin-top: 10%;
 	vertical-align: middle;
 	text-align: center;
 	z-index: 0;
+}
+
+.message {
+	height: 9%;
+	background-color: #464646;
+	color: white;
+	text-align: center;
+}
+
+p {
+	background-color: #464646;
+	color: white;
+	text-align: center;
 }
