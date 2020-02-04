@@ -9,6 +9,7 @@ leased-page-container {
 .carousel-containler {
 	height: auto;
 	width: 45%;
+	margin: 2% 2% 2% 2%;
 }
 
 * {
@@ -45,7 +46,7 @@ leased-page-container {
 	border-radius: 0 3px 3px 0;
 	user-select: none;
 	-webkit-user-select: none;
-	background-color: rgb(63, 211, 211);
+	background-color: rgb(201, 201, 201);
 }
 
 /* Position the "next button" to the right */
@@ -57,14 +58,14 @@ leased-page-container {
 /* On hover, add a black background color with a little bit see-through */
 .prev:hover,
 .next:hover {
-	background-color: rgba(160, 160, 160, 0.8);
-	text-emphasis-color: white;
+	background-color: rgba(10, 228, 214, 0.8);
+	text-emphasis-color: rgb(0, 217, 255);
 }
 
 /* Number text (1/3 etc) */
 .numbertext {
 	color: #f2f2f2;
-	font-size: 12px;
+	font-size: 1em;
 	padding: 8px 12px;
 	position: absolute;
 	top: 0;
@@ -73,9 +74,10 @@ leased-page-container {
 /* Container for image text */
 .caption-container {
 	text-align: center;
-	background-color: #222;
-	padding: 2px 16px;
+	background-color: rgb(50, 50, 50);
+	padding: 0% 0% 0% 0;
 	color: white;
+	text-align: center;
 }
 
 .row:after {
@@ -87,7 +89,7 @@ leased-page-container {
 /* Six columns side by side */
 .column {
 	float: left;
-	width: 16.66%;
+	width: 0%;
 }
 
 /* Add a transparency effect for thumnbail images */
