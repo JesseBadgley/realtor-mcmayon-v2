@@ -9,21 +9,21 @@ leased-page-container {
 
 .header {
 	padding: 1%;
-
 	text-align: center;
-	background: #1abc9c;
+	background: #0b5198;
 	color: white;
 	font-size: 30px;
 }
 
-/* h1 {
+#h1 {
+	font-family: 'Abril Fatface', cursive;
+}
+
+h1 {
 	text-align: center;
 	margin: 1.5% 0 0 0;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
-		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-	font-style: bold;
-	text-transform: capitalize;
-} */
+	font-family: 'Molle', cursive;
+}
 
 .carousel {
 	width: 40%;
