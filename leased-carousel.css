@@ -2,102 +2,44 @@ leased-page-container {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;
+	justify-content: center;
 	height: 100%;
 	width: 100%;
 }
 
-.carousel-containler {
-	height: auto;
-	width: 45%;
-	margin: 2% 2% 2% 2%;
-}
+.header {
+	padding: 1%;
 
-* {
-	box-sizing: border-box;
-}
-
-/* Position the image container (needed to position the left and right arrows) */
-.container {
-	position: relative;
-}
-
-/* Hide the images by default */
-.mySlides {
-	display: none;
-}
-
-/* Add a pointer when hovering over the thumbnail images */
-.cursor {
-	cursor: pointer;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-	cursor: pointer;
-	position: absolute;
-	top: 40%;
-	width: auto;
-	padding: 3%;
-	margin-top: -50px;
-	color: rgb(255, 255, 255);
-	font-weight: bold;
-	font-size: 1em;
-	border-radius: 0 3px 3px 0;
-	user-select: none;
-	-webkit-user-select: none;
-	background-color: rgb(201, 201, 201);
-}
-
-/* Position the "next button" to the right */
-.next {
-	right: 2.5%;
-	border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-	background-color: rgba(10, 228, 214, 0.8);
-	text-emphasis-color: rgb(0, 217, 255);
-}
-
-/* Number text (1/3 etc) */
-.numbertext {
-	color: #f2f2f2;
-	font-size: 1em;
-	padding: 8px 12px;
-	position: absolute;
-	top: 0;
-}
-
-/* Container for image text */
-.caption-container {
 	text-align: center;
-	background-color: rgb(50, 50, 50);
-	padding: 0% 0% 0% 0;
+	background: #1abc9c;
 	color: white;
+	font-size: 30px;
+}
+
+/* h1 {
 	text-align: center;
+	margin: 1.5% 0 0 0;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-style: bold;
+	text-transform: capitalize;
+} */
+
+.carousel {
+	width: 40%;
+	height: auto;
+	padding: 1%;
 }
 
-.row:after {
-	content: '';
-	display: table;
-	clear: both;
-}
-
-/* Six columns side by side */
-.column {
-	float: left;
-	width: 0%;
-}
-
-/* Add a transparency effect for thumnbail images */
-.demo {
-	opacity: 0.6;
-}
-
-.active,
-.demo:hover {
-	opacity: 1;
+.leased-pg-footer {
+	position: bottom;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: #464646;
+	text-align: center;
+	margin-top: 3%;
+	vertical-align: middle;
+	text-align: center;
+	z-index: 0;
 }
