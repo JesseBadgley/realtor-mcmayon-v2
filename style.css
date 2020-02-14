@@ -175,7 +175,7 @@ section > * {
 .contact-info {
 	height: 100%;
 	width: 30%;
-	/* border: rgb(255, 0, 234) solid 1px; */
+	border: rgb(255, 0, 234) solid 1px;
 	padding: 5%;
 }
 
