@@ -9,6 +9,8 @@
 		/>
 
 		<!-- Bootstrap CSS -->
+		<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+
 		<link
 			rel="stylesheet"
 			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -224,46 +226,27 @@
 
 				
 </div>
-		<section>
+		<section class="section-section">
 			<div class='pic-container' ><img src='/img/0-1.jpg'>
-				<div class='contact-info'>
+				
+				<div class='contact-section'>
 					<h1>Drop me a line!</h1>
-					<form class="form-horizontal" role="form" method="post" action="index.php">
-						<div class="form-group">
-							<label for="name" class="col-sm-2 control-label" style='font-size: 2em;'>Name</label>
-							<div class="col-sm-10">
-								<input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="email" class="col-sm-2 control-label" style='font-size: 2em;'>Email</label>
-							<div class="col-sm-10">
-								<input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="message" class="col-sm-2 control-label" style='font-size: 2em;'>Message</label>
-							<div class="col-sm-10">
-								<textarea class="form-control" rows="4" name="message"></textarea>
-							</div>
-						</div>
-						<div class="form-group">
-							<label for="human" class="col-sm-2 control-label" style='font-size: 2em;'>2 + 3 = ?</label>
-							<div class="col-sm-10">
-								<input type="text" class="form-control" id="human" name="human" placeholder="Your Answer">
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="col-sm-10 col-sm-offset-2">
-								<input id="submit" name="submit" type="submit" value="Send" class="btn btn-primary">
-							</div>
-						</div>
-						<div class="form-group">
-							<div class="col-sm-10 col-sm-offset-2">
-								<! Will be used to display an alert to the user>
-							</div>
-						</div>
+					<form>
+						<lable>
+							<p id='contact-form-titles'>E-mail</p>
+							<input type='email' class='email-input'>
+						</lable>
+						<lable>
+							<p id='contact-form-titles'>Subject</p>
+							<input type='text' class='message-input'>
+						</lable>
+						<label>
+							<p id='contact-form-titles'>Message</p>
+							<textarea></textarea>
+						</label>
+						<button id='email-btn' type='submit'>Send</button>
 					</form>
+				</div>	
 					
 					<!-- <h1 style="text-align: center; color:rgb(84, 84, 84);">Let's get in touch!</h1>
 					<div class='phone-container'>
@@ -281,7 +264,7 @@
 					<i class="fab fa-instagram fa-5x"></i> <a class='email' href="instagram/nick">instagram/nick</a>
 				</div>	
 		 -->
-				</div>
+				
 			</div>
 		
 		</section>
