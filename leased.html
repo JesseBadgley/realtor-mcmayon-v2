@@ -143,8 +143,18 @@
 					<img src="img/leased-1/0-3.jpg" style="width:100%" />
 				</div>
 
-				<a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-				<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+				<a
+					style="color:rgb(141, 0, 211);"
+					class="prev"
+					onclick="plusSlides(-1, 0)"
+					>&#10094;</a
+				>
+				<a
+					style="color:rgb(141, 0, 211);"
+					class="next"
+					onclick="plusSlides(1, 0)"
+					>&#10095;</a
+				>
 				<p>Slideshow 1:</p>
 			</div>
 
@@ -161,17 +171,55 @@
 					<img src="img/leased-1/0-6.jpg" style="width:100%" />
 				</div>
 
-				<a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-				<a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+				<a
+					style="color:rgb(141, 0, 211);"
+					class="prev"
+					onclick="plusSlides(-1, 1)"
+					>&#10094;</a
+				>
+				<a
+					style="color:rgb(141, 0, 211);"
+					class="next"
+					onclick="plusSlides(1, 1)"
+					>&#10095;</a
+				>
 				<p>Slideshow 2:</p>
+			</div>
+			<div class="slideshow-container">
+				<div class="mySlides3">
+					<img src="img/leased-1/0-7.jpg" style="width:100%" />
+				</div>
+
+				<div class="mySlides3">
+					<img src="img/leased-1/0-8.jpg" style="width:100%" />
+				</div>
+
+				<div class="mySlides3">
+					<img src="img/leased-1/0-9.jpg" style="width:100%" />
+				</div>
+
+				<a
+					style="color:rgb(141, 0, 211);"
+					class="prev"
+					onclick="plusSlides(-1, 2)"
+					>&#10094;</a
+				>
+				<a
+					style="color:rgb(141, 0, 211);"
+					class="next"
+					onclick="plusSlides(1, 2)"
+					>&#10095;</a
+				>
+				<p>Slideshow 3:</p>
 			</div>
 		</div>
 
 		<script>
-			var slideIndex = [1, 1];
-			var slideId = ['mySlides1', 'mySlides2'];
+			var slideIndex = [1, 1, 1];
+			var slideId = ['mySlides1', 'mySlides2', 'mySlides3'];
 			showSlides(1, 0);
 			showSlides(1, 1);
+			showSlides(1, 2);
 
 			function plusSlides(n, no) {
 				showSlides((slideIndex[no] += n), no);
