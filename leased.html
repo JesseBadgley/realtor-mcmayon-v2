@@ -2,56 +2,7 @@
 <html lang="en">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<style>
-			* {
-				box-sizing: border-box;
-			}
-			.mySlides1,
-			.mySlides2 {
-				display: flex;
-				flex-wrap: wrap;
-			}
-			img {
-				vertical-align: middle;
-			}
 
-			/* Slideshow container */
-			.slideshow-container {
-				max-width: 1000px;
-				position: relative;
-				margin: auto;
-			}
-
-			/* Next & previous buttons */
-			.prev,
-			.next {
-				cursor: pointer;
-				position: absolute;
-				top: 50%;
-				width: auto;
-				padding: 16px;
-				margin-top: -22px;
-				color: white;
-				font-weight: bold;
-				font-size: 18px;
-				transition: 0.6s ease;
-				border-radius: 0 3px 3px 0;
-				user-select: none;
-			}
-
-			/* Position the "next button" to the right */
-			.next {
-				right: 0;
-				border-radius: 3px 0 0 3px;
-			}
-
-			/* On hover, add a grey background color */
-			.prev:hover,
-			.next:hover {
-				background-color: #f1f1f1;
-				color: black;
-			}
-		</style>
 		<!-- Required meta tags -->
 		<meta charset="utf-8" />
 		<meta
@@ -176,45 +127,44 @@
 			</div>
 		</nav>
 		<div class="header">
-			<h1 id="h1">Leased Properties MmNn</h1>
+			<h1 id="h1">Leased Properties</h1>
 		</div>
+		<div class="all-slideshow-container">
+			<div class="slideshow-container">
+				<div class="mySlides1">
+					<img src="img/leased-1/0-1.jpg" style="width:100%" />
+				</div>
 
-		<h2 style="text-align:center">Multiple Slideshows</h2>
+				<div class="mySlides1">
+					<img src="img/leased-1/0-2.jpg" style="width:100%" />
+				</div>
 
-		<p>Slideshow 1:</p>
-		<div class="slideshow-container">
-			<div class="mySlides1">
-				<img src="img/leased-1/0-1.jpg" style="width:100%" />
+				<div class="mySlides1">
+					<img src="img/leased-1/0-3.jpg" style="width:100%" />
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+				<p>Slideshow 1:</p>
 			</div>
 
-			<div class="mySlides1">
-				<img src="img/leased-1/0-2.jpg" style="width:100%" />
+			<div class="slideshow-container">
+				<div class="mySlides2">
+					<img src="img/leased-1/0-4.jpg" style="width:100%" />
+				</div>
+
+				<div class="mySlides2">
+					<img src="img/leased-1/0-5.jpg" style="width:100%" />
+				</div>
+
+				<div class="mySlides2">
+					<img src="img/leased-1/0-6.jpg" style="width:100%" />
+				</div>
+
+				<a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+				<a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+				<p>Slideshow 2:</p>
 			</div>
-
-			<div class="mySlides1">
-				<img src="img/leased-1/0-3.jpg" style="width:100%" />
-			</div>
-
-			<a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
-			<a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
-		</div>
-
-		<p>Slideshow 2:</p>
-		<div class="slideshow-container">
-			<div class="mySlides2">
-				<img src="img/leased-1/0-4.jpg" style="width:100%" />
-			</div>
-
-			<div class="mySlides2">
-				<img src="img/leased-1/0-5.jpg" style="width:100%" />
-			</div>
-
-			<div class="mySlides2">
-				<img src="img/leased-1/0-6.jpg" style="width:100%" />
-			</div>
-
-			<a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
-			<a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
 		</div>
 
 		<script>
