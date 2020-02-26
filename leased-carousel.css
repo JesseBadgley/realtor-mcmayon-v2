@@ -38,7 +38,7 @@ img {
 .next {
 	right: 0;
 	border-radius: 3px 0 0 3px;
-	margin-right: 0.5em;
+	margin-right: 0.6em;
 }
 
 /* On hover, add a grey background color */
@@ -73,7 +73,7 @@ h1 {
 }
 
 .slideshow-container {
-	width: 50%;
+	width: 60%;
 	height: auto;
 	padding: 1%;
 }
@@ -102,4 +102,6 @@ p {
 	background-color: #464646;
 	color: white;
 	text-align: center;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 1.5em;
 }
