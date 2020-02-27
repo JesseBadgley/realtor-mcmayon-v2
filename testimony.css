@@ -1,0 +1,30 @@
+html,
+body {
+	height: 100%;
+}
+body {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.testimony-container {
+	flex: 1 0 auto;
+	height: 60%;
+	width: 100%;
+	background-color: #dfdfdf;
+	font-size: 1em;
+}
+footer {
+	flex-shrink: 0;
+	height: 9%;
+	flex-direction: row;
+	justify-content: space-evenly;
+}
+
+.Testimonies {
+	width: 80%;
+}
+
+i:hover {
+	color: rgb(141, 0, 211);
+}
