@@ -1,6 +1,10 @@
 * {
 	box-sizing: border-box;
 }
+body {
+	height: 80%;
+	width: 100%;
+}
 .mySlides1,
 .mySlides2,
 .mySlides3 {
@@ -74,12 +78,12 @@ h1 {
 
 .slideshow-container {
 	width: 60%;
-	height: auto;
+	height: 80%;
 	padding: 1%;
 }
 
 .leased-pg-footer {
-	position: bottom;
+	position: sticky;
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -92,10 +96,11 @@ h1 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-evenly;
+	position: bottom;
 }
 
 .message {
-	height: 9%;
+	height: 10%;
 	background-color: #343a40;
 	color: white;
 	text-align: center;
@@ -109,12 +114,13 @@ p {
 	font-size: 1.5em;
 }
 
-/* .leased-container {
+.leased-container {
 	flex: 1 0 auto;
-	height: 60%;
+	height: auto;
 	width: 100%;
 	background-color: #dfdfdf;
-	font-size: 1em; */
+	font-size: 1em;
+}
 
 i:hover {
 	color: rgb(141, 0, 211);
