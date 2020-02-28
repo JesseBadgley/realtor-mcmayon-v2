@@ -327,6 +327,10 @@ about-container img {
 	border: 1px solid red;
 }
 
+#test-btn {
+	width: 30%;
+}
+
 .about-pg-footer {
 	position: sticky;
 	left: 0;
