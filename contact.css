@@ -1,0 +1,74 @@
+.contact-container {
+	width: 90%;
+	margin: 3% 3% 3% 3%;
+	vertical-align: middle;
+	flex-direction: column;
+	justify-content: center;
+	text-align: center;
+	align-items: center;
+}
+
+/* .contact-info {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: right;
+	padding-right: 3%;
+	font-size: 0.5em;
+	height: 100%;
+	width: 50%;
+	border: 1px solid red;
+} */
+
+.email {
+	font-size: 2em;
+	color: rgb(0, 30, 255);
+	margin-right: 1em;
+	margin-left: 0.5em;
+}
+
+.email-container {
+	height: 20%;
+	width: 100%;
+	color: rgb(111, 12, 111);
+	display: flex;
+	justify-content: middle;
+	align-items: right;
+	margin-top: 3%;
+	flex: 1;
+}
+
+.eamil-container i {
+	margin: 1.7 em;
+	vertical-align: middle;
+}
+
+.phone-container {
+	height: 20%;
+	width: 100%;
+	color: rgb(111, 12, 111);
+	display: flex;
+	justify-content: right;
+	align-items: right;
+	flex-direction: row;
+}
+
+.phone-container i {
+	margin-right: 0.3em;
+	vertical-align: middle;
+}
+
+.phone {
+	font-size: 1.7em;
+	color: rgb(0, 30, 255);
+	margin-right: 1em;
+}
+
+.icon {
+	background: url('/img/zillow-icon-png-1-original.png') no-repeat top left;
+}
+.icon-accessibility {
+	background-position: 0 0;
+	width: 32px;
+	height: 32px;
+}

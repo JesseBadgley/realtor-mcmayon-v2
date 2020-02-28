@@ -10,6 +10,13 @@
 
 		<!-- Bootstrap CSS -->
 		<link
+			href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS"
+			crossorigin="anonymous"
+		/>
+
+		<link
 			rel="stylesheet"
 			href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
 			integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
@@ -27,24 +34,41 @@
 			href="https://fonts.googleapis.com/css?family=Abril+Fatface|Molle:400i&display=swap"
 			rel="stylesheet"
 		/>
+
 		<script
 			src="https://kit.fontawesome.com/6cf6486860.js"
 			crossorigin="anonymous"
 		></script>
 		<link rel="stylesheet" type="text/css" href="style.css" />
+		<link rel="stylesheet" type="text/css" href="sold.css" />
+		<link rel="stylesheet" type="text/css" href="contact.css" />
+
 		<link
 			rel="stylesheet"
 			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
 		/>
-
-		<title>Nicholas McMayon Realtor</title>
+		<link
+			href="https://fonts.googleapis.com/css?family=Molle:400i&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Nick McMayon Realtor</title>
 	</head>
 	<body>
+		<!-- Navigation -->
 		<nav class="navbar navbar-expand-md navbar-dark sticky-top navbar-custom">
 			<div class="container-fluid">
 				<img src="img/r-trans.png" id="nick" />
-
-				<a class="navbar-brand" href="#"></a>
+				<div class="nick-nav">
+					<a class="navbar-brand" href="#"
+						>Nicholas McMayon
+						<p
+							style="font-size: .5em; font-family: 'Abril Fatface', cursive;
+					;"
+						>
+							Martin Sena & Associates
+						</p>
+					</a>
+				</div>
 				<button
 					class="navbar-toggler"
 					type="button"
@@ -63,7 +87,7 @@
 								>Home</a
 							>
 						</li>
-						<li class="nav-item active">
+						<li class="nav-item">
 							<a
 								class="nav-link"
 								href="about.html"
@@ -71,7 +95,7 @@
 								>About</a
 							>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item ">
 							<a
 								class="nav-link"
 								href="testimony.html"
@@ -82,12 +106,12 @@
 						<li class="nav-item">
 							<a
 								class="nav-link"
-								href="car.html"
+								href="current.html"
 								style="font-family: Roboto, sans-serif;"
 								>Current Listings</a
 							>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item ">
 							<a
 								class="nav-link"
 								href="sold.html"
@@ -107,12 +131,12 @@
 						<li class="nav-item">
 							<a
 								class="nav-link"
-								href="#"
+								href="find.html"
 								style="font-family: Roboto, sans-serif;"
 								>search</a
 							>
 						</li>
-						<li class="nav-item">
+						<li class="nav-item active">
 							<a
 								class="nav-link"
 								href="#"
@@ -124,65 +148,46 @@
 				</div>
 			</div>
 		</nav>
-
-		<about-container>
-			<info class="about-page-info">
-				<h1>About Nicholas</h1>
-				<p>
-					Nicholas began his Real Estate career with a second chance
-					apartment-locating firm in 2008. Within seven months, he joined a
-					fast-paced brokerage in the Uptown neighborhood. He remained with this
-					company for the next six years, where he achieved the experience
-					needed to succeed in this cutthroat market. In 2015 he joined
-					Martin-Sena & Associates, llc where he has continued to prevail in the
-					Dallas Real Estate market! <br /><br />
-					He's carved his own niche in the Downtown market, leasing high-end
-					real estate, one-of-a-kind industrial loft spaces while also juggling
-					listings in both the residential sales market as well as the
-					commercial side of the business. <br /><br />
-					In his spare time, he enjoys socializing throughout the City,
-					including trying new eateries, dines & entertainment hot-spots. He
-					remains eextremly and is a member of the Dallas Running Club and is
-					currently training for a marathon. Nick has been a resident in
-					Downtown Dallas since 2009, reaffirming his admiration and knowledge
-					of the area!
-				</p>
-				<br />
-				<button type="button" class="btn btn-primary btn-lg">
-					TESTIMONIES
-				</button>
-			</info>
-
-			<img src="img/0.jpg" />
-		</about-container>
-		<footer class="about-pg-footer">
-			<a
-				href="tel:214-300-8305"
-				title="214-300-8305"
-				style="color:white;font-size: 1.5em; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"
-			>
-				<i
-					class="fas fa-phone-square"
-					title="214-300-8305"
-					href="tel:214-300-8305"
-					style="font-size:1.5em;"
-				></i
-				>&nbsp;</a
-			>
-			&nbsp;
-
+		<div class="contact-container">
+			<!-- <h1 style="text-align: left; color:rgb(84, 84, 84); margin-bottom:3%;">
+				Let's get in touch!
+			</h1> -->
+			<div class="phone-container">
+				<i class="fas fa-phone-alt fa-3x"></i>
+				<a class="phone" href="tel:214-300-8305">(214) 300-8305</a>
+			</div>
 			<div class="email-container">
+				<i class="fas fa-envelope fa-3x"></i>
+				<a class="email" href="mailto:nick@martinsena.com"
+					>nick@martinsena.com</a
+				>
+			</div>
+			<div class="email-container">
+				<i class="fas fa-sign fa-3x"></i>
 				<a
 					class="email"
-					href="mailto:nick@martinsena.com"
-					title="nick@martinsena.com"
-					><i class="fas fa-envelope" style="font-size:2.3em; ;"></i
-				></a>
+					href="https://www.realtor.com/realestateagents/nicholas-mcmayon_allen_tx_1774908_640654102"
+					>realtor.com/realestateagents/nicholas-mcmayon</a
+				>
 			</div>
+			<div class="email-container">
+				<i class="fab fa-linkedin fa-3x"></i>
+				<a class="email" href="https://www.linkedin.com/in/nickmcmayon/"
+					>linkedin.com/in/nickmcmayon/</a
+				>
+			</div>
+			<div class="email-container">
+				<img src="img/zillow-icon-png-1-original.png" style="height: 3.2em; " />
+				<a class="email" href="https://www.zillow.com/profile/nick5082/"
+					>zillow.com/profile/nick5082/</a
+				>
+			</div>
+		</div>
 
-			&nbsp;
-			<img src="img/equal-house.png" style="height:3em; " />
-		</footer>
+		<div></div>
+
+		<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
 		<script
 			src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 			integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
