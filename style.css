@@ -331,7 +331,8 @@ about-container img {
 	width: 30%;
 }
 
-.about-pg-footer {
+.about-pg-footer,
+.about-page-footer img {
 	position: sticky;
 	left: 0;
 	bottom: 0;
@@ -346,6 +347,9 @@ about-container img {
 	justify-content: space-evenly;
 }
 .about-pg-footer i:hover {
+	color: rgb(141, 0, 211);
+}
+.about-pg-footer img:hover {
 	color: rgb(141, 0, 211);
 }
 
