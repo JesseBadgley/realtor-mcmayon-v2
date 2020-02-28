@@ -78,7 +78,7 @@ h1 {
 	padding: 1%;
 }
 
-.leased-pg-footer {
+.sold-pg-footer {
 	position: bottom;
 	left: 0;
 	bottom: 0;
@@ -93,7 +93,7 @@ h1 {
 	flex-direction: row;
 	justify-content: space-evenly;
 }
-.leased-pg-footer i:hover {
+.sold-pg-footer i:hover {
 	color: rgb(141, 0, 211);
 }
 

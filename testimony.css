@@ -28,3 +28,10 @@ footer {
 i:hover {
 	color: rgb(141, 0, 211);
 }
+
+.testimony-box {
+	background-color: #0b5198;
+	border-radius: 10px;
+	padding: 1%;
+	color: white;
+}
