@@ -1,10 +1,10 @@
-* {
+/* * {
 	box-sizing: border-box;
-}
-body {
+} */
+/* body {
 	height: 80%;
 	width: 100%;
-}
+} */
 .mySlides1,
 .mySlides2,
 .mySlides3 {
@@ -83,7 +83,7 @@ h1 {
 }
 
 .leased-pg-footer {
-	position: sticky;
+	position: bottom;
 	left: 0;
 	bottom: 0;
 	width: 100%;
@@ -106,7 +106,7 @@ h1 {
 	text-align: center;
 }
 
-p {
+#prop-info {
 	background-color: #343a40;
 	color: white;
 	text-align: center;
