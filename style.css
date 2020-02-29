@@ -13,7 +13,8 @@ body {
 }
 
 .navbar {
-	padding: 0.9rem;
+	height: 10%;
+	/* padding: 1%; */
 }
 .navbar-brand {
 	font-family: 'Sriracha', cursive;
