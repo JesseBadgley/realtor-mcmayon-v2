@@ -287,6 +287,9 @@ footer i {
 } */
 
 /* About page */
+.testimony-container span {
+	cursor: pointer;
+}
 
 about-container {
 	display: flex;
