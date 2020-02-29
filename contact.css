@@ -1,11 +1,37 @@
+html,
+body {
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	background-image: url('img/Canton.jpg');
+	background-repeat: no-repeat, repeat;
+	background-size: cover;
+}
 .contact-container {
 	width: 90%;
+	height: 63.5%;
 	margin: 3% 3% 3% 3%;
 	vertical-align: middle;
 	flex-direction: column;
 	justify-content: center;
 	text-align: center;
 	align-items: center;
+}
+
+#info-contrainer {
+	height: 70%;
+	vertical-align: middle;
+	align-content: center;
+	justify-content: center;
+	align-content: center;
+	text-align: center;
+}
+
+#fu {
+	justify-content: center;
+	vertical-align: middle;
 }
 
 /* .contact-info {
@@ -71,4 +97,21 @@
 	background-position: 0 0;
 	width: 32px;
 	height: 32px;
+}
+
+.footer-icons {
+	margin-right: 0.2em;
+	color: rgb(228, 228, 228);
+}
+
+footer {
+	height: 7%;
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	position: bottom;
+	justify-content: center;
+	align-items: center;
+	background-color: #464646;
+	padding: 1em;
 }
