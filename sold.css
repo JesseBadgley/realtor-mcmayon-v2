@@ -99,6 +99,12 @@ h1 {
 	justify-content: space-evenly;
 	height: 9%;
 }
+#zillowIcon:hover {
+	content: url('img/zillow-icon-png-1-original.png');
+	background: url('/img/zillow-icon-png-1-original.png') no-repeat top left;
+	cursor: pointer;
+	width: auto;
+}
 .sold-pg-footer i:hover {
 	color: rgb(141, 0, 211);
 }
