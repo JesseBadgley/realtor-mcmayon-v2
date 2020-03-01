@@ -562,10 +562,53 @@
 					1,419 sqft
 				</p>
 			</div>
+			<div class="slideshow-container">
+				<div class="mySlides10">
+					<img
+						src="img/1505elm805dallastx75201Sale/Elm.jpg"
+						style="width:100%"
+					/>
+				</div>
+
+				<div class="mySlides10" id="mySlides10">
+					<img
+						src="img/1505elm805dallastx75201Sale/Elm2.jpg"
+						style="width:100%;"
+					/>
+				</div>
+				<div class="mySlides10" id="mySlides10">
+					<img
+						src="img/1505elm805dallastx75201Sale/Elm3.jpg"
+						style="width:100%;"
+					/>
+				</div>
+				<div class="mySlides10" id="mySlides10">
+					<img
+						src="img/1505elm805dallastx75201Sale/Elm4.jpg"
+						style="width:100%;"
+					/>
+				</div>
+
+				<a
+					style="color:rgb(141, 0, 211);"
+					class="prev"
+					onclick="plusSlides(-1, 9)"
+					>&#10094;</a
+				>
+				<a
+					style="color:rgb(141, 0, 211);"
+					class="next"
+					onclick="plusSlides(1, 9)"
+					>&#10095;</a
+				>
+				<p id="prop-info">
+					1505 Elm #805, Dallas, TX 75201
+				</p>
+			</div>
 		</div>
 
 		<script>
-			var slideIndex = [1, 1, 1, 1, 1, 1, 1, 1, 1];
+			var slideIndex = [1, 1, 1, 1, 1, 1, 1, 1, 1, 1];
 			var slideId = [
 				'mySlides1',
 				'mySlides2',
@@ -575,7 +618,8 @@
 				'mySlides6',
 				'mySlides7',
 				'mySlides8',
-				'mySlides9'
+				'mySlides9',
+				'mySlides10'
 			];
 			showSlides(1, 0);
 			showSlides(1, 1);
@@ -586,6 +630,7 @@
 			showSlides(1, 6);
 			showSlides(1, 7);
 			showSlides(1, 8);
+			showSlides(1, 9);
 
 			function plusSlides(n, no) {
 				showSlides((slideIndex[no] += n), no);

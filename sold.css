@@ -1,12 +1,7 @@
 * {
 	box-sizing: border-box;
 }
-.mySlides1,
-.mySlides2,
-.mySlides3 {
-	display: flex;
-	flex-wrap: wrap;
-}
+
 img {
 	vertical-align: middle;
 }
@@ -68,7 +63,7 @@ h1 {
 
 .all-slideshow-container {
 	display: flex;
-	/* flex-direction: flex; */
+	flex: 1;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 }
@@ -77,6 +72,11 @@ h1 {
 	width: 30%;
 	height: auto;
 	padding: 1%;
+}
+.slideshow-container img {
+	width: 250px;
+	height: 500px;
+	object-fit: cover;
 }
 
 #container-1 {
@@ -115,6 +115,6 @@ h1 {
 	color: white;
 	text-align: center;
 	font-family: 'Abril Fatface', cursive;
-	font-size: 1em;
+	font-size: 0.9em;
 	padding: 1%;
 }
