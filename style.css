@@ -425,12 +425,12 @@ input {
 }
 
 footer {
-	height: 7%;
+	height: 9%;
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	position: bottom;
-	justify-content: center;
+	justify-content: space-evenly;
 	align-items: center;
 	background-color: #464646;
 	padding: 1em;
@@ -441,9 +441,34 @@ footer i {
 	color: rgb(228, 228, 228);
 }
 
+footer i:hover {
+	color: #9212fd;
+}
+
 .footer-links {
 	color: white;
 	margin-right: 5%;
+}
+
+.icon {
+	background: url('/img/zillow-icon-png-1-original.png') no-repeat top left;
+}
+.icon-accessibility {
+	background-position: 0 0;
+	width: 32px;
+	height: 32px;
+}
+
+.footer-icons {
+	margin-right: 0.2em;
+	color: rgb(228, 228, 228);
+}
+
+#zillowIcon:hover {
+	content: url('img/zillow-icon-png-1-original.png');
+	background: url('/img/zillow-icon-png-1-original.png') no-repeat top left;
+	cursor: pointer;
+	width: auto;
 }
 
 /* .circle {
