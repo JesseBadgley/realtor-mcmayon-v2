@@ -54,12 +54,12 @@ body {
 
 .text-slider {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	color: #9212fd;
-
+	color: #fffdfd;
+	font-size: 1.1em;
 	overflow: hidden;
 	font-weight: bold;
-	-webkit-text-stroke-width: 2px;
-	-webkit-text-stroke-color: rgb(255, 255, 255);
+	-webkit-text-stroke-width: 1px;
+	-webkit-text-stroke-color: rgb(0, 0, 0);
 }
 
 .item-1,
