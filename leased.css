@@ -57,6 +57,7 @@ img {
 
 #h1 {
 	font-family: 'Abril Fatface', cursive;
+	background-color: rgb(240, 240, 240);
 }
 
 h1 {
@@ -66,12 +67,18 @@ h1 {
 	font-family: 'Molle', cursive;
 }
 
+#h1m {
+	background-color: rgb(240, 240, 240);
+}
+
 .all-slideshow-container > .slideshow-list {
 	display: flex;
 	flex: 1;
 	flex-wrap: wrap;
 	justify-content: space-evenly;
 	list-style-type: none;
+	background-color: rgb(240, 240, 240);
+
 	/* display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(200px, 3fr));
 	grid-template-rows: repeat(auto-fit, minmax(900px, 3fr));
@@ -80,7 +87,8 @@ h1 {
 }
 
 .all-slideshow-container {
-	height: 100%;
+	height: 70%;
+	background-color: rgb(240, 240, 240);
 }
 
 /* .all-slideshow-container > .slideshow-list > li:nth-child(4n) {
@@ -99,7 +107,7 @@ h1 {
 	width: 50%;
 	height: 50%;
 	padding: 1%;
-	/* background-color: #343a40; */
+	background-color: rgb(240, 240, 240);
 }
 .slideshow-container img {
 	width: auto;
