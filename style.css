@@ -56,7 +56,7 @@ body {
 	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 	color: #fffdfd;
 	font-size: 1.1em;
-	overflow: hidden;
+	overflow: clip;
 	font-weight: bold;
 	-webkit-text-stroke-width: 1px;
 	-webkit-text-stroke-color: rgb(0, 0, 0);
@@ -600,9 +600,12 @@ about-container img {
 		max-width: 10%;
 		max-height: auto;
 	}
-
+	.ts {
+		height: 0%;
+		width: 100%;
+	}
 	.attention {
-		height: 70vh;
+		height: 40vh;
 		width: 100vw;
 		background-image: url(img/look.jpg);
 		background-position: center center;
@@ -615,6 +618,7 @@ about-container img {
 	}
 
 	.text-slider {
+		display: none;
 		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
 			sans-serif;
 		color: #000000;
@@ -628,6 +632,7 @@ about-container img {
 	.item-1,
 	.item-2,
 	.item-3 {
+		display: none;
 		position: absolute;
 		display: block;
 		top: 2em;
@@ -731,7 +736,7 @@ about-container img {
 		flex-direction: row;
 		flex-wrap: wrap;
 		width: 30%;
-		height: 100%;
+		height: 10%;
 		padding: 1% 1% 1% 1%;
 		/* border: solid 1px purple; */
 		background-color: transparent;
