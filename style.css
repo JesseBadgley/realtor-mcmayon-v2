@@ -565,7 +565,434 @@ about-container img {
 }
 @media (max-width: 768px) {
 }
-@media (max-width: 576px) {
+@media (max-width: 568px) {
+	html,
+	body {
+		height: 100vh;
+		width: 100vw;
+		font-family: 'Popins', sans-serif;
+		color: #222;
+		background-color: #dfdfdf;
+	}
+
+	.navbar {
+		height: 10vh;
+		width: 100vw;
+		padding: 1%;
+	}
+	.navbar-brand {
+		font-family: 'Sriracha', cursive;
+		font-size: 0.5rem;
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	#nick {
+		max-width: 10%;
+		max-height: auto;
+	}
+
+	.attention {
+		height: 50vh;
+		width: 100vw;
+		background-image: url(img/look.jpg);
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		background-size: fill;
+		background-color: #464646;
+		color: white;
+		font-family: Arial, Helvetica, sans-serif;
+	}
+
+	.text-slider {
+		font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS',
+			sans-serif;
+		color: #000000;
+		font-size: 0.7em;
+		overflow: hidden;
+		font-weight: bold;
+		-webkit-text-stroke-width: 0.5px;
+		-webkit-text-stroke-color: rgb(82, 0, 154);
+	}
+
+	.item-1,
+	.item-2,
+	.item-3 {
+		position: absolute;
+		display: block;
+		top: 2em;
+
+		width: 60%;
+
+		font-size: 2em;
+		margin-top: 4em;
+
+		animation-duration: 20s;
+		animation-timing-function: ease-in-out;
+		animation-iteration-count: infinite;
+	}
+
+	#nick {
+		max-width: 2rem;
+		height: auto;
+		margin-right: 2%;
+	}
+
+	.nick-nav {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.contact {
+		background-color: #dfdfdf;
+	}
+
+	.first {
+		font-size: 2em;
+		font-family: 'Abril Fatface', cursive;
+		text-align: center;
+		/* padding-right: 5%;
+		padding-bottom: 2%;
+		margin-left: 9%; */
+	}
+
+	.testimony-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: center;
+		width: 100%;
+		align-items: center;
+	}
+
+	.testimony {
+		font-size: 0.2em;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+			Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+		font-style: italic;
+		text-align: center;
+		padding-right: 0%;
+		margin-left: 0%;
+	}
+
+	#words {
+		background-color: #003278;
+		color: rgb(240, 240, 240);
+		font-size: 0.5em;
+	}
+
+	#message-btn {
+		align-items: center;
+	}
+
+	.section-section {
+		height: auto;
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	section > * {
+		flex: 1 1 250px;
+	}
+
+	.pic-container {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: column;
+		align-items: center;
+		vertical-align: middle;
+		padding: 0% 0 0% 0;
+	}
+
+	.pic-container img {
+		width: 70%;
+		max-width: 200px;
+		height: auto;
+		border-radius: 5%;
+		margin-left: 2%;
+		margin-bottom: 2%;
+		margin-top: 2%;
+	}
+
+	#dropLine {
+		font-size: 1.5em;
+	}
+
+	.contact-section {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		width: 30%;
+		height: 100%;
+		padding: 1% 1% 1% 1%;
+		/* border: solid 1px purple; */
+		background-color: transparent;
+		margin: 0 0 0 2%;
+	}
+
+	form,
+	label {
+		display: flex;
+		flex-direction: column;
+		margin: 0 0 1% 0;
+	}
+
+	input {
+		width: 100%;
+		/* margin: 0 0 0.5% 0; */
+	}
+	#contact-form-titles {
+		margin: 1% 0 1% 0;
+	}
+
+	#email-btn {
+		height: 5em;
+		width: 20%;
+		color: green;
+		margin: 1% 0 0 0;
+	}
+	#email-btn:hover {
+		cursor: pointer;
+		color: #9212fd;
+	}
+
+	.contact-section h1 {
+		font-size: 1em;
+		text-align: center;
+		font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+			Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	}
+
+	.bootstrap-iso .form-group button,
+	.bootstrap-iso form input.form-control,
+	.bootstrap-iso form textarea.form-control,
+	.bootstrap-iso form select.form-control,
+	.bootstrap-iso form .form-group-lg input.form-control,
+	.bootstrap-iso form .form-group-lg textarea.form-control,
+	.bootstrap-iso form .form-group-lg select.form-control,
+	.bootstrap-iso form .form-group-sm input.form-control,
+	.bootstrap-iso form .form-group-sm textarea.form-control,
+	.bootstrap-iso form .form-group-sm select.form-control {
+		-webkit-border-radius: 20px;
+		-moz-border-radius: 20px;
+		border-radius: 20px;
+	}
+	.bootstrap-iso .formden_header h2,
+	.bootstrap-iso .formden_header p,
+	.bootstrap-iso form {
+		font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+		color: #9212fd;
+	}
+	.bootstrap-iso form button,
+	.bootstrap-iso form button:hover {
+		color: #ffffff !important;
+	}
+	.bootstrap-iso .btn-custom {
+		background: #9212fd;
+	}
+	.bootstrap-iso .btn-custom:hover {
+		background: #7e00e9;
+	}
+	.bootstrap-iso .form-control:focus {
+		border-color: #9212fd;
+		-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+			0 0 8px rgba(146, 18, 253, 0.6);
+		box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075),
+			0 0 8px rgba(146, 18, 253, 0.6);
+	}
+	.asteriskField {
+		color: red;
+	}
+	.bootstrap-iso form .input-group-addon {
+		color: #555555;
+		/* background-color: #eeeeee; */
+		border-radius: 20px;
+		padding-left: 15px;
+	}
+	.bootstrap-iso {
+		display: none;
+		background-color: #dfdfdf;
+	}
+
+	.form-group {
+		width: 500px;
+	}
+	#dropLine {
+		font-family: 'Molle', cursive;
+		text-align: center;
+		margin: 5% 0 5% 0;
+	}
+	#fu {
+		font-size: 0.5em;
+	}
+	.email {
+		font-size: 1.5em;
+		color: rgb(0, 30, 255);
+		margin-right: 1em;
+		margin-left: 0.5em;
+	}
+
+	.email-container {
+		height: 20%;
+		width: 100%;
+		color: #9212fd;
+		display: flex;
+		justify-content: right;
+		align-items: right;
+		margin: 7%;
+		vertical-align: middle;
+	}
+
+	.eamil-container i {
+		margin: 1em;
+		vertical-align: middle;
+	}
+
+	.phone-container {
+		height: 20%;
+		width: 100%;
+		color: #9212fd;
+		display: flex;
+		justify-content: right;
+		align-items: right;
+		flex-direction: row;
+		padding: 7%;
+	}
+
+	.phone-container i {
+		margin-right: 0.3em;
+		vertical-align: middle;
+	}
+
+	.phone {
+		font-size: 1.5em;
+		color: rgb(0, 30, 255);
+		margin-right: 1em;
+	}
+
+	footer {
+		height: 9%;
+		width: 100%;
+		display: flex;
+		flex-direction: row;
+		position: bottom;
+		justify-content: space-evenly;
+		align-items: center;
+		background-color: #464646;
+		padding: 1em;
+		font-size: 0.1em;
+		vertical-align: middle;
+		text-align: center;
+		padding: 1%;
+	}
+
+	footer i {
+		display: none;
+		margin-right: 0.5em;
+		color: rgb(228, 228, 228);
+	}
+
+	footer i:hover {
+		color: #9212fd;
+	}
+
+	.footer-links {
+		color: white;
+		margin-right: 5%;
+	}
+
+	.icon {
+		display: none;
+	}
+	.icon-accessibility {
+		background-position: 0 0;
+		width: 32px;
+		height: 32px;
+	}
+
+	.footer-icons {
+		display: none;
+		margin-right: 0.2em;
+		color: rgb(228, 228, 228);
+	}
+
+	#zillowIcon:hover {
+		content: url('img/zillow-icon-png-1-original.png');
+		background: url('/img/zillow-icon-png-1-original.png') no-repeat top left;
+		cursor: pointer;
+		width: auto;
+	}
+
+	/* About page */
+	.testimony-container span {
+		cursor: pointer;
+	}
+
+	about-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		height: 81%;
+		width: 100%;
+	}
+
+	about-container img {
+		border-radius: 50%;
+		height: 60%;
+		width: auto;
+		margin: 2% 0% 3% 6%;
+	}
+
+	.about-page-info {
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		width: 60%;
+		padding: 2% 3% 3% 4%;
+	}
+
+	.about-page-info h1 {
+		text-align: center;
+		margin-top: 6%;
+		font-family: 'Abril Fatface', cursive;
+		color: #0b5198;
+	}
+
+	.about-pg-contact {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		align-items: center;
+		vertical-align: middle;
+		border: 1px solid red;
+	}
+
+	#test-btn {
+		width: 30%;
+	}
+
+	.about-pg-footer,
+	.about-page-footer img {
+		position: sticky;
+		left: 0;
+		bottom: 0;
+		width: 100%;
+		height: 9%;
+		background-color: #464646;
+		text-align: center;
+		margin-top: 0 auto;
+		vertical-align: middle;
+		text-align: center;
+		z-index: 0;
+		justify-content: space-evenly;
+	}
+	.about-pg-footer i:hover {
+		color: rgb(141, 0, 211);
+	}
+	.about-pg-footer img:hover {
+		color: rgb(141, 0, 211);
+	}
 }
 
 /*---Firefox Bug Fix --*/
