@@ -587,6 +587,9 @@ about-container img {
 		flex-direction: column;
 		text-align: center;
 	}
+	#navNick {
+		font-size: 1.2em;
+	}
 	#nick {
 		max-width: 10%;
 		max-height: auto;
