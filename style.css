@@ -580,6 +580,12 @@ about-container img {
 		width: 100vw;
 		padding: 1%;
 	}
+	.navbar-nav li {
+		padding-right: 0.8rem;
+		text-transform: uppercase;
+		font-size: 0.5rem;
+	}
+
 	.navbar-brand {
 		font-family: 'Sriracha', cursive;
 		font-size: 0.5rem;
