@@ -298,7 +298,7 @@ input {
 }
 #email-btn:hover {
 	cursor: pointer;
-	color: #9212fd;
+	color: #9312fd;
 }
 
 .contact-section h1 {
@@ -326,17 +326,17 @@ input {
 .bootstrap-iso .formden_header p,
 .bootstrap-iso form {
 	font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
-	color: #9212fd;
+	color: hsl(273, 98%, 53%);
 }
 .bootstrap-iso form button,
 .bootstrap-iso form button:hover {
 	color: #ffffff !important;
 }
 .bootstrap-iso .btn-custom {
-	background: #9212fd;
+	background: hsl(273, 98%, 53%);
 }
 .bootstrap-iso .btn-custom:hover {
-	background: #7e00e9;
+	background: hsl(272, 100%, 46%);
 }
 .bootstrap-iso .form-control:focus {
 	border-color: #9212fd;
@@ -422,7 +422,7 @@ input {
 }
 
 #zillowIconup {
-	color: rgb(147, 18, 253);
+	color: hsl(273, 98%, 53%);
 }
 
 .phone {
